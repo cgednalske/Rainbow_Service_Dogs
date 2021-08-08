@@ -1,1 +1,37 @@
-dfdsa
+.navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-brand, .nav-link {
+    color:#5C0D5C !important;
+}
+
+.donateButton {
+    margin-right: 1%;
+}
+
+.jumbotron {
+    padding: 5%;
+}
+
+.btn-primary {
+    background-color: #5C0D5C;
+    border: none;
+}
+
+.donationSection {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+.donationMethod {
+    width: 33.33%;
+    height: 130px;
+}
+.tab-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: .25px solid lightgrey;
+    height: 250px;
+}
