@@ -1,10 +1,8 @@
-
 /* Navigation Bar Menu */
 .navbar {
     padding-left: 5%;
     padding-right: 5%;
     background-color: white !important;
-
 }
 .nav-link {
     color:#5C0D5C !important;
@@ -13,11 +11,7 @@
     font-size: 16px;
 }
 .navbar-brand {
-    
-}
-.navbar-brand {
     width: 11%;
-    border: 1px solid red;
     margin-right: 4%;
 }
 .navLogo {
@@ -29,15 +23,26 @@
     color: white;
     border: none;
 }
+.navigationButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.navButton {
+    margin-bottom: 8%;
+}
+.tab-content {
+    padding: 5%;
+}
 .loginButton {
     background-color: #5C0D5C;
     color: white;
     border: none;
 }
-
 .navbar-nav {
-    border: 1px solid blue;
-    width: 78%;
+    width: 83%;
     display: flex;
     justify-content: space-around;
 }
@@ -47,15 +52,23 @@
 .jumbotron {
     padding: 5%;
 }
+h1 {
+  font-family: "Neuton";
+  font-weight: bolder !important;
+  color: white;
+}
 .btn-primary {
     background-color: #5C0D5C;
     border: none;
 }
 
 /* Donation Tabs */
+.donate {
+  box-shadow: 2px 5px 5px #5C0D5C;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .donationSection {
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 80px;
 }
 .donationMethod {
@@ -63,14 +76,11 @@
     height: 130px;
 }
 .tab-content {
-    margin-left: 10%;
-    margin-right: 10%;
-    border: .25px solid lightgrey;
     height: 250px;
 }
 
 /* Modal Carousel */
-.img-size{
+.img-size {
     /* 	padding: 0;
         margin: 0; */
         height: 450px;
@@ -206,3 +216,27 @@ ul.social-network li {
   background-color: #F9F9F9;
 }
 
+
+/* Media Query */
+
+@media (max-width: 767.98px) {
+
+.navigationButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }   
+.navButton {
+    margin-bottom: 1%;
+    
+    }
+
+
+
+
+
+
+
+
+}

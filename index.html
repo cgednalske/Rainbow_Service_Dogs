@@ -11,7 +11,7 @@
 <section>
     <!-- Navigation -->
     <div class="navigationSection">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-end">
         <a class="navbar-brand" href="#">
             <img class="navLogo" src="images/logo.png">
         </a>
@@ -19,7 +19,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse align-items-end" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
@@ -33,24 +33,22 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Meet Our Dogs</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Donate
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Donate</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
             
           </ul>
-          <button class="donateButton btn btn-outline-success my-2 my-sm-0" type="submit">Donate</button>
-            <button class="btn btn-outline-success my-2 my-sm-0 searchButton loginButton" type="submit">Client Login</button>
+          <div class="navigationButtons">
+            <div class="navButton">
+                <button class="donateButton btn btn-outline-success my-2 my-sm-0" type="submit">Donate</button>
+            </div>
+            <div class="navButton">
+                <button class="btn btn-outline-success my-2 my-sm-0 searchButton loginButton" type="submit">Client Login</button>
+            </div>
+        </div>
         </div>
       </nav>
     </div>
@@ -58,7 +56,7 @@
     <!-- Jumbotron -->
     <div class="heroSection">
         <div class="jumbotron">
-            <h1 class="display-4">Rainbow Service Dogs</h1>
+            <h1 class="display-4">RAINBOW SERVICES DOGS</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component.</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -71,26 +69,24 @@
 </section>
 
 <!-- Donate Tabs-->
-<div>
+<div class="donate">
     <nav class="donationSection">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active donationMethod" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">One-Time Donation</button>
+          <button class="nav-link active donationMethod donationActive" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">One-Time Donation</button>
           <button class="nav-link donationMethod" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Recurring Donation</button>
           <button class="nav-link donationMethod" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Item Wishlist</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">TEST Information about the type of donation method.</div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        <div class="tab-pane fade show active tabInfo" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">TEST Information about the type of donation method.</div>
+        <div class="tab-pane fade tabInfo" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+        <div class="tab-pane fade tabInfo" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
       </div>
 </div>
 
 <!-- Modal Carousel -->
 
-<div class="container">
-    <h1 class="display-4 text-center mb-4">Sample Modal</h1>
-  
+<div class="container">  
     <div class="row mb-4">
       <div class="col text-center">
         <a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal">Click to open Modal</a>
