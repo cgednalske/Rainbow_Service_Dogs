@@ -4,12 +4,42 @@
     padding-left: 5%;
     padding-right: 5%;
     background-color: white !important;
+
 }
-.navbar-brand, .nav-link {
+.nav-link {
     color:#5C0D5C !important;
+    font-family: "Neuton", Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.navbar-brand {
+    
+}
+.navbar-brand {
+    width: 11%;
+    border: 1px solid red;
+    margin-right: 4%;
+}
+.navLogo {
+    width: 100%;
 }
 .donateButton {
     margin-right: 1%;
+    background-color: #4A8FB8;
+    color: white;
+    border: none;
+}
+.loginButton {
+    background-color: #5C0D5C;
+    color: white;
+    border: none;
+}
+
+.navbar-nav {
+    border: 1px solid blue;
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
 }
 
 
