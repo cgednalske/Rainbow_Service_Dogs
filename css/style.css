@@ -51,6 +51,7 @@
 /* Jumbotron Hero Section */
 .jumbotron {
     padding: 5%;
+    background-color: lightgray;
 }
 h1 {
   font-family: "Neuton";
