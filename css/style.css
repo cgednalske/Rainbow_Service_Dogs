@@ -138,7 +138,6 @@ h1 {
 footer {
   background: #5C0D5C;
   color: white;
-  margin-top:100px;
 }
 
 footer a {
@@ -147,14 +146,9 @@ footer a {
   transition-duration: 0.2s;
 }
 
-footer a:hover {
-  color: #FA944B;
-  text-decoration: none;
-}
-
 .copy {
   font-size: 12px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .footer-middle {
@@ -181,11 +175,11 @@ ul.social-network li {
 }
 
 .social-network a.icoFacebook:hover {
-  background-color: #3B5998;
+  background-color: #A84AA8;
 }
 
 .social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+  background-color: #A84AA8;
 }
 
 .social-network a.icoFacebook:hover i,
@@ -195,7 +189,7 @@ ul.social-network li {
 
 .social-network a.socialIcon:hover,
 .socialHoverClass {
-  color: #44BCDD;
+  color: #A84AA8;
 }
 
 .social-circle li a {
