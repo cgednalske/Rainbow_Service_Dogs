@@ -67,6 +67,15 @@ h1 {
     border: none;
 }
 
+.pupJumbotron {
+  background-image: url(../images/meetourdogs.jpg);
+  background-size: cover;
+  height: 100%;
+}
+.pupHeading {
+  margin-top: 20vh;
+}
+
 /* Donation Tabs */
 .donate {
   box-shadow: 2px 5px 5px #5C0D5C;
