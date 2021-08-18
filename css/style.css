@@ -89,7 +89,17 @@ h1 {
     border-radius: 20px;
 }
 
+
 /* Modal Carousel */
+.pupIntro {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 6%;
+}
+.modalContainer {
+  margin-top: -5% !important;
+}
+
 .img-size {
     /* 	padding: 0;
         margin: 0; */
@@ -116,7 +126,10 @@ h1 {
         height: 48px;
     }
 
-/* Cards */
+
+
+
+/* Cards - Regular */
 .container-fluid {
   padding: 6%;
 }
@@ -131,6 +144,57 @@ h1 {
 .card-title {
   font-size: 24px;
 }
+
+
+/* Pup Gallery Cards */
+.galleryRow {
+  margin-bottom: 2.5%;
+  margin-top: 2%;
+}
+.pupCard {
+  border-radius: 20px;
+  
+}
+
+.pupContent1, .pupContent2, .pupContent3 {
+  padding: 15%;
+  
+}
+
+.pupCard img {
+  box-shadow: 2px 5px 5px #cacaca;
+  border-radius: 20px;
+}
+.pupTitle {
+  color: white;
+  font-family: "Neuton" Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.pupText {
+  color: white;
+  font-family: "Roboto" Arial, Helvetica, sans-serif !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 93%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+
+.pupCard:hover .overlay {
+  opacity: 1;
+}
+
 
   /*FOOTER*/
 
@@ -335,7 +399,6 @@ body {
   color: #5c0d5c;
 }
 
-<<<<<<< Updated upstream
 
 
 /* Cards with Overlay */
@@ -346,10 +409,6 @@ body {
     background: #f9f9f9;
     font-size: 16px;
     font-family: 'Raleway', sans-serif
-}
-
-.container {
-    margin-top: 200px
 }
 
 .title {
@@ -389,7 +448,7 @@ body {
     width: 100%
 }
 
-img {
+.content-overlay img {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px
 }
@@ -439,11 +498,9 @@ img {
 
 
 
-=======
->>>>>>> Stashed changes
 /* Media Query */
 
-@ media (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
 .navigationButtons {
     display: flex;
@@ -451,6 +508,7 @@ img {
     align-items: flex-start;
     justify-content: flex-start;
     }   
+
 .navButton {
     margin-bottom: 1%;
     }
@@ -523,4 +581,6 @@ img {
 
 .fadeIn-bottom {
     top: 80%;
+}
+
 }
