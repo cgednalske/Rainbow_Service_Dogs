@@ -162,6 +162,48 @@ p {
   border-top-right-radius: 20px;
 }
 
+
+/* Testimonial Card */
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.testimonialInfo {
+  width: 65%;
+  color: black; 
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 6%;
+  height: 100%;
+}
+.testimonialInfo h4 {
+  margin-top: 20%;
+  padding-bottom: 10%;
+}
+.testimonialImage {
+  width: 35%;
+  padding: 3%;
+}
+.testimonialImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 5%;
+  border-radius: 50%;
+  
+}
+.yellow-box-shadow {
+  box-shadow: 2px 5px 5px #E8AE5A;
+}
+.orange-box-shadow {
+  box-shadow: 2px 5px 5px #F2765E;
+}
+
+
 /* Modal Carousel */
 .modalContainer {
   margin-top: -5% !important;
@@ -229,7 +271,6 @@ p {
 }
 
 .pupCard img {
-  box-shadow: 2px 5px 5px #cacaca;
   border-radius: 20px;
 }
 .pupTitle {
