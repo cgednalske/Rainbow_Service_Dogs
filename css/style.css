@@ -3,8 +3,17 @@
           box-sizing: border-box;
 }
 
-/* Typography /*
-
+/* Typography */
+h1 h2 {
+  font-family: Neuton, 'Times New Roman', Times, serif;
+}
+p {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.purple {
+  color:#5C0D5C;
+  font-family: Neuton, 'Times New Roman', Times, serif;
+}
 
 
 /* Navigation Bar Menu */
@@ -17,7 +26,7 @@
     color:#5C0D5C !important;
     font-family: "Neuton", Georgia, 'Times New Roman', Times, serif;
     font-weight:bolder;
-    font-size: 16px;
+    font-size: 18px;
 }
 .navbar-brand {
     width: 11%;
@@ -60,7 +69,7 @@
     padding: 5%;
     background-color: lightgray;
 }
-h1 {
+.jumbotron h1 {
   font-family: "Neuton";
   font-weight: bolder !important;
   color: white;
@@ -516,4 +525,3 @@ body {
     top: 80%;
 }
 
-}
