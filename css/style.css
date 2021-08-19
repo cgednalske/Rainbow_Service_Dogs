@@ -127,6 +127,40 @@ p {
 }
 
 
+/* Call to Donate Card */
+.call-to-donate {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  height: 350px;
+}
+.actionInfo {
+  width: 35%;
+  background-color: #5C0D5C;
+  color: white; 
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 6%;
+}
+.actionInfo h4 {
+  margin-top: 20%;
+  padding-bottom: 10%;
+}
+.call-donate-button {
+  margin-top: 10%;
+}
+.actionImage {
+  width: 65%;
+}
+.actionImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
 /* Modal Carousel */
 .modalContainer {
@@ -234,6 +268,7 @@ p {
 footer {
   background: #5C0D5C;
   color: white;
+  margin-top: 5%;
 }
 
 footer a {
@@ -454,6 +489,47 @@ body {
 .navButton {
     margin-bottom: 1%;
     }
+
+
+    /* Call to Donate Card */
+.call-to-donate {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 600px;
+}
+.actionInfo {
+  width: 100%;
+  height: 30%;
+  background-color: #5C0D5C;
+  color: white; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  padding: 6%;
+}
+.actionInfo h4 {
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+.call-donate-button {
+  margin-top: 10%;
+}
+.actionImage {
+  width: 100%;
+}
+.actionImage img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0px;
+}
+
 
 @media only screen and (max-width: 480px) {
       .notfound .notfound-404 h1 {
