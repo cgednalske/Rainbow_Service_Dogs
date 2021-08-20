@@ -135,6 +135,7 @@ p {
   justify-content: center;
   margin: 0 auto;
   height: 350px;
+  margin-top: 5%;
 }
 .actionInfo {
   width: 35%;
@@ -167,10 +168,11 @@ p {
 .testimonials {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 70%;
   justify-content: center;
   margin: 0 auto;
   border-radius: 20px;
+  
 }
 .testimonialInfo {
   width: 65%;
