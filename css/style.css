@@ -285,15 +285,19 @@ p {
 .galleryRow {
   margin-bottom: 2.5%;
   margin-top: 2%;
+  
 }
 .pupCard {
   border-radius: 20px;
   height: 380px;
+  border: 1px solid purple;
+  
 }
 
 .pupContent1, .pupContent2, .pupContent3 {
   padding: 15%;
-  
+  width: 100%;
+  border: 1px solid red;
 }
 
 .pupCard img {
@@ -301,7 +305,25 @@ p {
   width: 100%;
   height: 100%;
   object-fit:cover;
+  border: 1px solid blue;
 }
+
+/*trial for overlay 2*/
+.pupImageHolder img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border: 1px solid blue;
+}
+.pupImageHolder {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+/*trial ends*/
+
+
 .pupTitle {
   color: white;
   font-family: "Neuton" Georgia, 'Times New Roman', Times, serif;
@@ -319,7 +341,7 @@ p {
   left: 0;
   right: 0;
   height: 100%;
-  width: 93%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
