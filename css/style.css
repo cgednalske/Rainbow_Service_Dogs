@@ -110,6 +110,16 @@ p {
     border-radius: 20px;
 }
 
+.donateJumbotron {
+  background-image: url(../images/Donations.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.donateHeading {
+  margin-top: 20vh;
+}
+
 /* Purple Card */
 .purpleCard {
   background-color:#5C0D5C;
