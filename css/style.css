@@ -25,7 +25,6 @@ p {
 .nav-link {
     color:#5C0D5C !important;
     font-family: "Neuton", Georgia, 'Times New Roman', Times, serif;
-    font-weight:bolder;
     font-size: 18px;
 }
 .navbar-brand {
@@ -187,7 +186,6 @@ p {
   border-top-right-radius: 20px;
 }
 
-
 /* Testimonial Card */
 .testimonials {
   display: flex;
@@ -220,7 +218,6 @@ p {
   object-fit: cover;
   padding: 5%;
   border-radius: 50%;
-  
 }
 .yellow-box-shadow {
   box-shadow: 2px 5px 5px #E8AE5A;
@@ -228,7 +225,6 @@ p {
 .orange-box-shadow {
   box-shadow: 2px 5px 5px #F2765E;
 }
-
 
 /* Modal Carousel */
 .modalContainer {
@@ -261,9 +257,6 @@ p {
         height: 48px;
     }
 
-
-
-
 /* Cards - Regular */
 .container-fluid {
   padding: 6%;
@@ -280,12 +273,10 @@ p {
   font-size: 24px;
 }
 
-
 /* Pup Gallery Cards */
 .galleryRow {
   margin-bottom: 2.5%;
   margin-top: 2%;
-  
 }
 .pupCard {
   border-radius: 20px;
@@ -353,8 +344,7 @@ p {
   opacity: 1;
 }
 
-
-  /*FOOTER*/
+/*FOOTER*/
 
 footer {
   background: #5C0D5C;
@@ -397,16 +387,20 @@ ul.social-network li {
 }
 
 .social-network a.icoFacebook:hover {
-  background-color: #A84AA8;
+  background-color: #4A8FB8;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #A84AA8;
+.social-network a.icoYouTube:hover {
+  background-color: #4A8FB8;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #4A8FB8;
 }
 
 .social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
-  color: #fff;
+.social-network a.icoYouTube:hover i, 
+.social-network a.icoTwitter:hover i {
+  color: white;
 }
 
 .social-network a.socialIcon:hover,
@@ -682,5 +676,20 @@ body {
 
 .fadeIn-bottom {
     top: 80%;
+}
+
+/* Service page modal */
+    .btn-svc a:hover {
+    background-color: #fff;
+    border-color: #5c0d5c;
+    color: #5c0d5c;
+  }
+  
+  .btn-warning {
+    background-color: #4a8fb8 !important;
+    border: none;
+}
+.modal-footer btn {
+  background-color: #4a8fb8 !important;
 }
 

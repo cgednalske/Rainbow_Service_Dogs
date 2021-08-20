@@ -20,7 +20,7 @@
      <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+<body>
 <!--NAVIGATION-->
 <div class="navigationSection">
   <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-end">
@@ -65,7 +65,7 @@
     </nav>
 </div>
 
-<!-- test -->
+<!-- Main section -->
 <div class="container-fluid">
 <div class="row">
   <div class="col col-md-6">
@@ -74,33 +74,96 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row row-1">
     <div class="col-md-2 col-sm-0"></div>
-    <div class="col-md-4 col-sm-12">
-    <div class="card services">
-      <img src="images/group.jpg" class="card-img-top" alt="group photo">
-      <div class="card-body">
-        <h5 class="card-title">Learn to Train Your Service Dog</h5>
-        <p class="card-text">Our program includes 120+ hours of physical and social training for dog and handler, 40+ hours of community outings, and 40+ hours of classroom instruction.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+    <div class="col-md-4 col-sm-12 pb-4">
+      <div class="card services">
+        <img src="images/puppy crop.jpg" class="card-img-top" alt="gorgous puppy">
+        <div class="card-body">
+          <h5 class="card-title">Find a Suitable Service Dog </h5>
+          <p class="card-text">We work with animal control centers, Humane Societies, and several local rescues to obtain suitable animals for participants.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Learn More
+          </button>
+        </div>
       </div>
     </div>
-    </div>
 
-  <div class="col-md-4 col-sm-12">
-    <div class="card services">
-      <img src="images/puppy crop.jpg" class="card-img-top" alt="gorgous puppy">
-      <div class="card-body">
-        <h5 class="card-title">Find a Suitable Service Dog </h5>
-        <p class="card-text">We work with animal control centers, Humane Societies, and several local rescues to obtain suitable animals for participants.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Find a Suitable Service Dog</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body mx-3 my-3">
+          <p>We work with animal control centers, Humane Societies, and several local rescues to obtain suitable animals for participants.</p> 
+          <p>All potential animals are tested for aggression, noise response, and other behavior issues prior to adoption. The animals must display non-aggression to other animals.</p> <p>Individuals are responsible for all adopted animals, their adoption fees, shots and spaying/neutering.</p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Contact Us</button>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-md-2 col-sm-0"></div>
+
+    <div class="col-md-4 col-sm-12 pb-4">
+    <div class="card services">
+      <img src="images/group.jpg" class="card-img-top" alt="group photo">
+      <div class="card-body">
+        <h5 class="card-title">Train Your Service Dog</h5>
+        <p class="card-text">120+ hours of physical and social training for dog and handler, 40+ hours of community outings, and 40+ hours of instruction.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+           Learn More</button>
+      </div>
+    </div>
+    </div>
 </div>
 
-<div class="row">
+  <!-- Le Modal -->
+<div class="modal fade" id="myModal2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Learn to Train Your Service Dog</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body mx-3 my-3">
+        <p>The program includes 120+ hours of physical and social training of the dog and handler, 40+ hours of community outings, and 40+ hours of classroom instruction.
+        <p>We include all AKC testing fees and classes. AKC filing fees for each test are the responsibility of the handler as well as the cost of all patches for each test. Fees range from $15.00 to $25.00 plus $19.00 for AKC CANINE PARTNERS registration number (if your dog is not already AKC registered) and patches are $12.00.</p>
+        <p>Upon entrance into the program, members will receive a welcome packet containing class schedules, sample training logs, sample homework sheets and a list of rules and expectations.</p>  
+        <p>Our program offers a sliding scale for all training fees which is based on income. Training costs run between $12.50 to $18.50 an (50 min) hour for groups, and $18.00 to $25.00 on private. In-home visits range up to $30.00 an hour.</p>
+        <p>Payment for the first three months are due upon entry to the program and funds are non-refundable.</p>
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <div class="row mx-auto">
+          <div class="col">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Download Application</button>
+        </div>
+          <div class="col">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="col-md-2 col-sm-0"></div>
+<div class="row row-2">
   <div class="col-md-2 col-sm-0"></div>
   <div class="col-md-4 col-sm-12">
   <div class="card services">
@@ -118,7 +181,7 @@
     <img src="images/girl and dog.png" class="card-img-top" alt="girl and her service dog">
     <div class="card-body">
       <h5 class="card-title">Advocate for Our Clients</h5>
-      <p class="card-text">Offering peer advocacy with counceling, medical appointments, and other issues that may arise around the handler/service dog team.</p>
+      <p class="card-text">Offering peer advocacy with counseling, appointments, and other issues that may arise around the handler/service dog team.</p>
       <a href="#" class="btn btn-primary">Learn More</a>
     </div>
   </div>
@@ -143,11 +206,7 @@
 <div class="col-md-2 sm-0"></div>
 </div>
 </div>
-
-<!--MAIN PAGE SECTION-->
-
-
- 
+</div>
 
 <!--FOOTER-->
 <footer class="mainfooter" role="contentinfo">
@@ -228,7 +287,6 @@
   </div>
   </div>
 </footer> 
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
