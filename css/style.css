@@ -262,7 +262,7 @@ p {
 }
 .pupCard {
   border-radius: 20px;
-
+  height: 350px;
 }
 
 .pupContent1, .pupContent2, .pupContent3 {
@@ -272,6 +272,9 @@ p {
 
 .pupCard img {
   border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 .pupTitle {
   color: white;
