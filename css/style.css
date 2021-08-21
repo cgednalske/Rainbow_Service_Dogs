@@ -325,8 +325,6 @@ p {
 }
 /*trial ends*/
 
-
-
 .pupsDonate {
   margin-bottom: 8%;
 }
@@ -587,8 +585,10 @@ body {
     margin-bottom: 1%;
     }
 
+/* About Us Link card */
 
-    /* Call to Donate Card */
+
+/* Call to Donate Card */
 .call-to-donate {
   display: flex;
   flex-direction: column;
