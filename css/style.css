@@ -25,7 +25,6 @@ p {
 .nav-link {
     color:#5C0D5C !important;
     font-family: "Neuton", Georgia, 'Times New Roman', Times, serif;
-    font-weight:bolder;
     font-size: 18px;
 }
 .navbar-brand {
@@ -94,6 +93,7 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 20px;
+  margin-bottom:5%;
 }
 .donationSection {
     margin-top: 80px;
@@ -108,6 +108,29 @@ p {
 .tab-content {
     height: 250px;
     border-radius: 20px;
+}
+
+.donateJumbotron {
+  background-image: url(../images/Donations.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.donateHeading {
+  margin-top: 20vh;
+}
+
+.donorJumbotron {
+  background-image: url(../images/xan-griffin-UCFgM_AojFg-unsplash.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.purpleDonors {
+  color:#5C0D5C;
+  font-family: Neuton, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-bottom: 2%;
 }
 
 /* Purple Card */
@@ -127,10 +150,85 @@ p {
 }
 
 
+/* Call to Donate Card */
+.call-to-donate {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  height: 350px;
+  margin-top: 5%;
+}
+.actionInfo {
+  width: 35%;
+  background-color: #5C0D5C;
+  color: white; 
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 6%;
+}
+.actionInfo h4 {
+  margin-top: 20%;
+  padding-bottom: 10%;
+}
+.call-donate-button {
+  margin-top: 10%;
+}
+.actionImage {
+  width: 65%;
+}
+.actionImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Testimonial Card */
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  
+}
+.testimonialInfo {
+  width: 65%;
+  color: black; 
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 6%;
+  height: 100%;
+}
+.testimonialInfo h4 {
+  margin-top: 20%;
+  padding-bottom: 10%;
+}
+.testimonialImage {
+  width: 35%;
+  padding: 3%;
+}
+.testimonialImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 5%;
+  border-radius: 50%;
+}
+.yellow-box-shadow {
+  box-shadow: 2px 5px 5px #E8AE5A;
+}
+.orange-box-shadow {
+  box-shadow: 2px 5px 5px #F2765E;
+}
 
 /* Modal Carousel */
 .modalContainer {
-  margin-top: -5% !important;
+  margin-top: -4% !important;
 }
 
 .img-size {
@@ -159,6 +257,12 @@ p {
         height: 48px;
     }
 
+    .modalTraining {
+      margin-bottom: 8%;
+    }
+
+  
+
 /* Cards - Regular */
 .container-fluid {
   padding: 6%;
@@ -175,7 +279,6 @@ p {
   font-size: 24px;
 }
 
-
 /* Pup Gallery Cards */
 .galleryRow {
   margin-bottom: 2.5%;
@@ -183,16 +286,45 @@ p {
 }
 .pupCard {
   border-radius: 20px;
+  height: 380px;
+  position: relative;
 }
 
 .pupContent1, .pupContent2, .pupContent3 {
   padding: 15%;
+  width: 100%;
 }
 
 .pupCard img {
-  box-shadow: 2px 5px 5px #cacaca;
   border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
+
+/*trial for overlay 2*/
+.pupImageHolder img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.pupImageHolder {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+/*trial ends*/
+
+
+
+.pupsDonate {
+  margin-bottom: 8%;
+}
+.trainingHeader {
+  margin-top: -1% !important;
+}
+
 .pupTitle {
   color: white;
   font-family: "Neuton" Georgia, 'Times New Roman', Times, serif;
@@ -210,7 +342,7 @@ p {
   left: 0;
   right: 0;
   height: 100%;
-  width: 93%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
@@ -223,13 +355,12 @@ p {
   opacity: 1;
 }
 
-
-  /*FOOTER*/
+/*FOOTER*/
 
 footer {
   background: #5C0D5C;
   color: white;
-  font-family: "Roboto", Helvetica, sans-serif;
+  margin-top: 5%;
 }
 
 footer a {
@@ -267,16 +398,20 @@ ul.social-network li {
 }
 
 .social-network a.icoFacebook:hover {
-  background-color: #A84AA8;
+  background-color: #4A8FB8;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #A84AA8;
+.social-network a.icoYouTube:hover {
+  background-color: #4A8FB8;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #4A8FB8;
 }
 
 .social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
-  color: #fff;
+.social-network a.icoYouTube:hover i, 
+.social-network a.icoTwitter:hover i {
+  color: white;
 }
 
 .social-network a.socialIcon:hover,
@@ -428,10 +563,6 @@ body {
   color: #5c0d5c;
 }
 
-
-
-
-
 /* Media Query */
 
 @media (max-width: 767.98px) {
@@ -446,6 +577,47 @@ body {
 .navButton {
     margin-bottom: 1%;
     }
+
+
+    /* Call to Donate Card */
+.call-to-donate {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 600px;
+}
+.actionInfo {
+  width: 100%;
+  height: 30%;
+  background-color: #5C0D5C;
+  color: white; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  padding: 6%;
+}
+.actionInfo h4 {
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+.call-donate-button {
+  margin-top: 10%;
+}
+.actionImage {
+  width: 100%;
+}
+.actionImage img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0px;
+}
+
 
 @media only screen and (max-width: 480px) {
       .notfound .notfound-404 h1 {
@@ -516,3 +688,19 @@ body {
 .fadeIn-bottom {
     top: 80%;
 }
+
+/* Service page modal */
+    .btn-svc a:hover {
+    background-color: #fff;
+    border-color: #5c0d5c;
+    color: #5c0d5c;
+  }
+  
+  .btn-warning {
+    background-color: #4a8fb8 !important;
+    border: none;
+}
+.modal-footer btn {
+  background-color: #4a8fb8 !important;
+}
+

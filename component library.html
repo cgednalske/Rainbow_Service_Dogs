@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@800&family=Roboto&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Roboto&display=swap" rel="stylesheet">
 
       <!--favicon-->
      <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -69,14 +69,13 @@
  <!-- Jumbotron -->
  <div class="heroSection">
   <div class="jumbotron">
-      <h1 class="display-4">RAINBOW SERVICES DOGS</h1>
+      <h1 class="display-4 fadeonload">RAINBOW SERVICES DOGS</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component.</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 </div>
-
 
 <!--Purple Card Intro-->
 <div class="purpleCard">
@@ -91,15 +90,15 @@
 <div class="donate">
   <nav class="donationSection">
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <button class="nav-link active donationMethod donationActive" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">One-Time Donation</button>
-        <button class="nav-link donationMethod" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Recurring Donation</button>
-        <button class="nav-link donationMethod" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Item Wishlist</button>
+        <button class="nav-link active donationMethod donationActive" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Donation Type 1</button>
+        <button class="nav-link donationMethod" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Donation Type 2</button>
+        <button class="nav-link donationMethod" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Donation Type 3</button>
       </div>
     </nav>
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active tabInfo" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">TEST Information about the type of donation method.</div>
-      <div class="tab-pane fade tabInfo" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-      <div class="tab-pane fade tabInfo" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active tabInfo" id="home" role="tabpanel" aria-labelledby="home-tab">Donation 1 - Information about the type of donation method.</div>
+      <div class="tab-pane fade tabInfo" id="profile" role="tabpanel" aria-labelledby="profile-tab">Second type of donation method information to know</div>
+      <div class="tab-pane fade tabInfo" id="contact" role="tabpanel" aria-labelledby="contact-tab">Number 3 donation method information</div>
     </div>
 </div>
 
@@ -226,66 +225,115 @@
   <!--Pup Gallery-->
   
   <div class="container-fluid">
-    <h2>Our Pup Graduates</h2>
+    <h2 class="purple">Our Pup Graduates</h2>
     <div class="row galleryRow">
     
-   <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-    <img class="card-img" src="images/threedogs.jpg" alt="Card image">
+   <div class="card-container col-lg-4 col-md-4 col-sm-12">
+     <div class="pupCard">
+    <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/threedogs.jpg" alt="Card image"> </div>
+    <div class="overlay pupContent1">
+      <h5 class="card-title pupTitle">Dog Name</h5>
+      <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+   </div>
+    
+   <div class="card-container col-lg-4 col-md-4 col-sm-12">
+    <div class="pupCard">
+   <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/threedogs.jpg" alt="Card image"> </div>
+   <div class="overlay pupContent1">
+     <h5 class="card-title pupTitle">Dog Name</h5>
+     <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+   </div>
+  </div>
+  </div>
+   
+  <div class="card-container col-lg-4 col-md-4 col-sm-12">
+    <div class="pupCard">
+   <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/Buster.jpg" alt="Card image"> </div>
+   <div class="overlay pupContent1">
+     <h5 class="card-title pupTitle">Dog Name</h5>
+     <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+   </div>
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="row galleryRow">
+    
+    <div class="card-container col-lg-4 col-md-4 col-sm-12">
+      <div class="pupCard">
+     <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/threedogs.jpg" alt="Card image"> </div>
+     <div class="overlay pupContent1">
+       <h5 class="card-title pupTitle">Dog Name</h5>
+       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </div>
+   </div>
+    </div>
+     
+    <div class="card-container col-lg-4 col-md-4 col-sm-12">
+     <div class="pupCard">
+    <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/threedogs.jpg" alt="Card image"> </div>
     <div class="overlay pupContent1">
       <h5 class="card-title pupTitle">Dog Name</h5>
       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
    </div>
-    
-   <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-    <img class="card-img" src="images/threedogs.jpg" alt="Card image">
-    <div class="card-img-overlay pupContent3 overlay">
-      <h5 class="card-title pupTitle">Dog Name</h5>
-      <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
    </div>
     
-   <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-    <img class="card-img" src="images/threedogs.jpg" alt="Card image">
-    <div class="card-img-overlay pupContent3 overlay">
+   <div class="card-container col-lg-4 col-md-4 col-sm-12">
+     <div class="pupCard">
+    <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/Buster.jpg" alt="Card image"> </div>
+    <div class="overlay pupContent1">
       <h5 class="card-title pupTitle">Dog Name</h5>
       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
    </div>
    </div>
-  
-   <div class="row galleryRow">
-    
-    <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-     <img class="card-img" src="images/threedogs.jpg" alt="Card image">
-     <div class="overlay pupContent1">
-       <h5 class="card-title pupTitle">Dog Name</h5>
-       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
-    </div>
-     
-    <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-     <img class="card-img" src="images/threedogs.jpg" alt="Card image">
-     <div class="card-img-overlay pupContent3 overlay">
-       <h5 class="card-title pupTitle">Dog Name</h5>
-       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
-    </div>
-     
-    <div class="card-container col-lg-4 col-md-4 col-sm-12 pupCard">
-     <img class="card-img" src="images/threedogs.jpg" alt="Card image">
-     <div class="card-img-overlay pupContent3 overlay">
-       <h5 class="card-title pupTitle">Dog Name</h5>
-       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
-    </div>
-    </div>
+   </div>
   
    </div>
 
 
+<!--Call to Donate Card-->
 
+<div class="call-to-donate">    
+  <div class="actionInfo">
+    <h4>Help our pups provide life-saving assistance</h5>
+    <button class="donateButton call-donate-button btn btn-outline-success my-2 my-sm-0" type="submit">Donate Today</button>
+  </div>
+  <div class="actionImage">
+    <img src="images/threedogs.jpg">
+  </div>
+</div>
         
+
+<!--Testimonial Cards-->
+
+<div class="testimonials yellow-box-shadow">    
+  <div class="testimonialInfo">
+    <h5>Title</h5>
+    <p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
+    
+  </div>
+  <div class="testimonialImage">
+    <img src="images/threedogs.jpg">
+  </div>
+</div>
+
+<div class="testimonials orange-box-shadow">    
+  <div class="testimonialImage">
+    <img src="images/threedogs.jpg">
+  </div>
+  <div class="testimonialInfo">
+    <h5>Title</h5>
+    <p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
+  
+  </div>
+</div>
+
+
 
 <!--FOOTER-->
 <footer class="mainfooter" role="contentinfo">
