@@ -110,6 +110,14 @@ p {
     border-radius: 20px;
 }
 
+.paypal {
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+
 .donateJumbotron {
   background-image: url(../images/Donations.jpg);
   background-size: cover;
@@ -118,6 +126,12 @@ p {
 
 .donateHeading {
   margin-top: 20vh;
+}
+
+.donorHeading{
+  margin-top: 70vh;
+  background-color:#f0f0f0d2;
+  padding: 20px;
 }
 
 .donorJumbotron {
@@ -131,6 +145,7 @@ p {
   font-family: Neuton, 'Times New Roman', Times, serif;
   font-size: 20px;
   margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 /* Purple Card */
