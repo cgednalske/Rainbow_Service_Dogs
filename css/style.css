@@ -228,7 +228,7 @@ p {
 
 /* Modal Carousel */
 .modalContainer {
-  margin-top: -5% !important;
+  margin-top: -4% !important;
 }
 
 .img-size {
@@ -256,6 +256,12 @@ p {
         width: 30px;
         height: 48px;
     }
+
+    .modalTraining {
+      margin-bottom: 8%;
+    }
+
+  
 
 /* Cards - Regular */
 .container-fluid {
@@ -312,7 +318,12 @@ p {
 
 
 
-
+.pupsDonate {
+  margin-bottom: 8%;
+}
+.trainingHeader {
+  margin-top: -1% !important;
+}
 
 .pupTitle {
   color: white;
