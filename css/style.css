@@ -662,3 +662,19 @@ body {
 .modal-footer btn {
   background-color: #4a8fb8 !important;
 }
+
+
+
+
+
+/* Fade In */
+.element.style {
+  opacity: 1;
+  margin-left: 0px;
+}
+
+.fadeonload {
+  opacity: 0;
+  margin-left: -300px;
+  max-width: 100%;
+}
