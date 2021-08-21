@@ -15,6 +15,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -62,17 +63,25 @@
         </div>
       </nav>
     </div>
+</section>
+
     <!-- Jumbotron -->
     <div class="heroSection">
         <div class="jumbotron">
             <h1 class="display-4">RAINBOW SERVICES DOGS</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component.</p>
+            <p class="lead">Not Just a Program, We Are a Community</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </div>
     </div>
-</section>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
 
 <!-- MAIN PAGE SECTION -->
 
@@ -94,9 +103,9 @@
     
    <div class="card-container col-lg-4 col-md-4 col-sm-12">
      <div class="pupCard">
-    <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/threedogs.jpg" alt="Card image"> </div>
+    <div class="pupImageHolder"><img class="card-img orange-box-shadow" src="images/Doggo 1 square.jpg" alt="cute dog"> </div>
     <div class="overlay pupContent1">
-      <h5 class="card-title pupTitle">Dog Name</h5>
+      <h5 class="card-title pupTitle">Meet Our Dogs</h5>
       <p class="card-text pupText">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
@@ -125,49 +134,46 @@
   
 </div>
 
+
+
 <!--Testimonial Cards-->
-
 <div class="testimonials yellow-box-shadow">    
-<div class="testimonialInfo">
-<h5>Title</h5>
-<p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
-
-</div>
-<div class="testimonialImage">
-<img src="images/threedogs.jpg">
-</div>
+    <div class="testimonial Image">
+    <img class="rounded-circle" alt="Honey the Dog" src="images/Honey.jpeg" width="200" data-holder-rendered="true">
+    </div>
+  <div class="testimonialInfo"> 
+    <h5>Lewis Nonya</h5>
+    <p>Rainbow Service dogs training is amazing my Honey has had a pretty rough life till now.. Kelly showed me a whole new side to this amazing furbaby...</p>
+  </div>
 </div>
 
 <div class="testimonials orange-box-shadow">    
-<div class="testimonialImage">
-<img src="images/threedogs.jpg">
-</div>
 <div class="testimonialInfo">
-<h5>Title</h5>
-<p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
-
+  <h5>Daisy Nightengale</h5>
+  <p>Rainbow Service Dogs is an amazing program that uses positive reinforcement and uses games to train your dog. I have seen amazing results from my dogs behavior and deminor. RSD has created a community where we all look out for eachother through the training process and they are all great with kids. We all have a great time and I have learned so much.</p>
+</div>
+<div class="testimonialImage">
+  <img class="rounded-circle" alt="Frankie in action" src="images/frankie.jpeg" width="200" data-holder-rendered="true">
 </div>
 </div>
 
 <div class="testimonials yellow-box-shadow">    
-  <div class="testimonialInfo">
-  <h5>Title</h5>
-  <p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
-  
-  </div>
   <div class="testimonialImage">
-  <img src="images/threedogs.jpg">
+    <img class="rounded-circle" alt="Honey the Dog" src="images/Daisy.jpeg" width="200" data-holder-rendered="true">
   </div>
+  <div class="testimonialInfo">
+  <h5>Lafyette Charles</h5>
+  <p>Kelley and her team are absolutely amazing. They work with children of various ages and she has helped our two boys achieve getting their service dogs. Both my boys experience  severe medical issues. RSD granted a full scholarship for one of my sons.</p>  
   </div>
+</div>
   
   <div class="testimonials orange-box-shadow">    
-  <div class="testimonialImage">
-  <img src="images/threedogs.jpg">
-  </div>
   <div class="testimonialInfo">
-  <h5>Title</h5>
-  <p>Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards Information for the testimonial cards</p>
-  
+  <h5>Tani Wade</h5>
+  <p>I absolutely love going to learn how to work with my dog.  My dog LOVES going to class and is learning so much!  We worked with him to become a certified service animal and he is doing fabulous.  We are returning for additional classes because it was such a great experience!</p>  
+  </div>
+  <div class="testimonialImage">
+    <img class="rounded-circle" alt="Tani and doggo" src="images/Tani Wade.jpeg" width="200" data-holder-rendered="true">
   </div>
   </div>
 
@@ -177,7 +183,7 @@
 <div class="call-to-donate">    
   <div class="actionInfo">
     <h4>Help our pups provide life-saving assistance</h5>
-    <button class="donateButton call-donate-button btn btn-outline-success my-2 my-sm-0" type="submit">Donate Today</button>
+      <a href="donate.html" class="donateButton call-donate-button btn btn-outline-success my-2 my-sm-0" role="button" aria-pressed="true">Donate Today</a>
   </div>
   <div class="actionImage">
     <img src="images/threedogs.jpg">
@@ -185,7 +191,7 @@
 </div>
 
 
-
+</body>
 
 
 <!-- Footer -->
@@ -268,7 +274,7 @@
   </div>
 </footer>  
 
-</body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
