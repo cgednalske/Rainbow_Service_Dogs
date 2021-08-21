@@ -77,6 +77,19 @@ p {
     background-color: #5C0D5C;
     border: none;
 }
+.homeJumbotron {
+  background-image: url(../images/home\ hero\ crop.jpg);
+  background-size: cover;
+  background-position: 31%;
+  height: 100%;
+}
+.lead {
+  color: white;
+}
+.homeTitle {
+  margin-top: 25vh;
+  margin-left: 2%;
+}
 
 .pupJumbotron {
   background-image: url(../images/meetourdogs.jpg);
@@ -205,7 +218,7 @@ p {
 .testimonials {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 60%;
   justify-content: center;
   margin: 0 auto;
   border-radius: 20px;
@@ -592,7 +605,7 @@ body {
 .call-to-donate {
   display: flex;
   flex-direction: column;
-  width: 88%;
+  width: 95%;
   justify-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -626,77 +639,14 @@ body {
   border-bottom-left-radius: 20px;
   border-top-right-radius: 0px;
 }
-
+}
 
 @media only screen and (max-width: 480px) {
       .notfound .notfound-404 h1 {
         font-size: 162px;
       }
+    }
 
-.content .content-overlay {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 99%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s
-}
-
-.content:hover .content-overlay {
-    opacity: 1
-}
-
-.content-image {
-    width: 100%;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 5px
-}
-
-.content-details {
-    position: absolute;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s
-}
-
-.content:hover .content-details {
-    top: 50%;
-    left: 50%;
-    opacity: 1
-}
-
-.content-details h3 {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase
-}
-
-.content-details p {
-    color: #fff;
-    font-size: 0.8em
-}
-
-.fadeIn-bottom {
-    top: 80%;
-}
 
 /* Service page modal */
     .btn-svc a:hover {
@@ -712,4 +662,3 @@ body {
 .modal-footer btn {
   background-color: #4a8fb8 !important;
 }
-
