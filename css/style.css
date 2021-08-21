@@ -212,13 +212,7 @@ p {
   width: 35%;
   padding: 3%;
 }
-.testimonialImage img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  padding: 5%;
-  border-radius: 50%;
-}
+
 .yellow-box-shadow {
   box-shadow: 2px 5px 5px #E8AE5A;
 }
