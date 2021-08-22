@@ -177,6 +177,20 @@ p {
   font-weight: bold;
 }
 
+.introCard {
+  background-color:#5C0D5C;
+  color: white;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 1%;
+  padding: 2%;
+  border-radius: 20px;
+}
+.introCard h5 {
+  margin-bottom: 2%;
+  margin-top: 1%;
+  font-weight: bold;
+}
 
 /* Call to Donate Card */
 .call-to-donate {
@@ -212,6 +226,15 @@ p {
   object-fit: cover;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+.aboutInfo {
+  width: 35%;
+  background-color: #5C0D5C;
+  color: white; 
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 3%;
 }
 
 /* Testimonial Card */
@@ -649,7 +672,7 @@ body {
 
 
 /* Service page modal */
-    .btn-svc a:hover {
+  .btn-svc a:hover {
     background-color: #fff;
     border-color: #5c0d5c;
     color: #5c0d5c;
@@ -661,4 +684,33 @@ body {
 }
 .modal-footer btn {
   background-color: #4a8fb8 !important;
+}
+
+.white {
+  background-color: white;
+  color:#5c0d5c;
+}
+
+/* about us card */
+.bcontent {
+  margin-top: 10px;
+}
+
+
+/* Fixed Nav Bar */
+body {
+  position: relative; 
+}
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+ position: relative;
+ top: 50px;
 }
