@@ -328,7 +328,16 @@ p {
       margin-bottom: 8%;
     }
 
-  
+    .carousel-item img {
+      width: 100%;
+      object-fit: contain;
+    }
+    .carousel-item p {
+      margin: 3%;
+    }
+    .carousel-item h5 {
+      margin: 3%;
+    }
 
 /* Cards - Regular */
 .container-fluid {
