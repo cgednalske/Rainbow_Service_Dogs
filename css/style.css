@@ -133,7 +133,8 @@ p {
 .donateJumbotron {
   background-image: url(../images/Donations.jpg);
   background-size: cover;
-  height: 500px;
+  background-position: 31%;
+  height: 100%;
 }
 
 .donateHeading {
