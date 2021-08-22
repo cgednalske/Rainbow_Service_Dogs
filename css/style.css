@@ -284,7 +284,15 @@ p {
 .blue-box-shadow {
   box-shadow: 2px 5px 5px #008bba;
 }
-
+.lightpurple-box-shadow {
+  box-shadow: 2px 5px 5px #A84AA8;
+}
+.purple-box-shadow {
+  box-shadow: 2px 5px 5px #5F4ABF;
+}
+.darkpurple-box-shadow {
+  box-shadow: 2px 5px 5px #5C0D5C;
+}
 /* Modal Carousel */
 .modalContainer {
   margin-top: 1% !important;
@@ -422,7 +430,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #f2775eda;
+  background-color: #db5a40da;
   border-radius: 20px;
   margin: auto;
   overflow: hidden
@@ -437,7 +445,37 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #e8ad5ad7;
+  background-color: #d49337d7;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a138a1de;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5f4abfd8;
   border-radius: 20px;
   margin: auto;
   overflow: hidden
@@ -452,7 +490,12 @@ p {
 .pupCard:hover .overlay3 {
   opacity: 1;
 }
-
+.pupCard:hover .overlay4 {
+  opacity: 1;
+}
+.pupCard:hover .overlay5 {
+  opacity: 1;
+}
 /* Home Feature Cards */
 .card-overlay-text1 {
   color: white;
