@@ -713,4 +713,18 @@ body {
 .affix ~ .container-fluid {
  position: relative;
  top: 50px;
+
+
+
+
+/* Fade In */
+.element.style {
+  opacity: 1;
+  margin-left: 0px;
+}
+
+.fadeonload {
+  opacity: 0;
+  margin-left: -300px;
+  max-width: 100%;
 }
