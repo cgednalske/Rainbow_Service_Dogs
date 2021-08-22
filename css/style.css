@@ -161,13 +161,19 @@ p {
   margin-left: 2%;
 }
 
+.homeOurStory {
+  text-align: center;
+  margin-top: 5%;
+}
+
 /* Purple Card */
 .purpleCard {
   background-color:#5C0D5C;
   color: white;
   margin-left: 6%;
   margin-right: 6%;
-  margin-top: 6%;
+  margin-top: 3%;
+  margin-bottom: 2%;
   padding: 5%;
   border-radius: 20px;
 }
@@ -176,7 +182,9 @@ p {
   margin-top: 1%;
   font-weight: bold;
 }
-
+.meetIntroduction {
+  margin-top: 5%;
+}
 
 /* Call to Donate Card */
 .call-to-donate {
@@ -186,7 +194,7 @@ p {
   justify-content: center;
   margin: 0 auto;
   height: 350px;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .actionInfo {
   width: 35%;
@@ -215,10 +223,14 @@ p {
 }
 
 /* Testimonial Card */
+.homeSubheading {
+  text-align: center;
+  margin-top: 3%;
+}
 .testimonials {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 88%;
   justify-content: center;
   margin: 0 auto;
   border-radius: 20px;
@@ -247,10 +259,13 @@ p {
 .orange-box-shadow {
   box-shadow: 2px 5px 5px #F2765E;
 }
+.blue-box-shadow {
+  box-shadow: 2px 5px 5px #008bba;
+}
 
 /* Modal Carousel */
 .modalContainer {
-  margin-top: -4% !important;
+  margin-top: 1% !important;
 }
 
 .img-size {
@@ -287,7 +302,10 @@ p {
 
 /* Cards - Regular */
 .container-fluid {
-  padding: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 .card {
   box-shadow: 2px 5px 8px #5C0D5C;
@@ -324,7 +342,7 @@ p {
   object-fit:cover;
 }
 
-/*trial for overlay 2*/
+/* overlay fix*/
 .pupImageHolder img {
   border-radius: 20px;
   width: 100%;
@@ -336,13 +354,14 @@ p {
   height: 100%;
   object-fit:cover;
 }
-/*trial ends*/
+
 
 .pupsDonate {
   margin-bottom: 8%;
 }
-.trainingHeader {
-  margin-top: -1% !important;
+.galleryHeader {
+  margin-top: 2% !important;
+  margin-bottom: 3% !important;
 }
 
 .pupTitle {
@@ -365,7 +384,38 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #008bbad7;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f2775eda;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e8ad5ad7;
   border-radius: 20px;
   margin: auto;
   overflow: hidden
@@ -373,6 +423,47 @@ p {
 
 .pupCard:hover .overlay {
   opacity: 1;
+}
+.pupCard:hover .overlay2 {
+  opacity: 1;
+}
+.pupCard:hover .overlay3 {
+  opacity: 1;
+}
+
+/* Home Feature Cards */
+.card-overlay-text1 {
+  color: white;
+  text-align: center;
+  margin-top: 55%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  padding-top: 4%;
+  background-color: #008bbac5; 
+}
+.card-overlay-text2 {
+  color: white;
+  text-align: center;
+  margin-top: 55%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  padding-top: 4%;
+  background-color: #f2775ecc; 
+}
+.card-overlay-text3 {
+  color: white;
+  text-align: center;
+  margin-top: 55%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  padding-top: 4%;
+  background-color: #e8ad5ae3; 
 }
 
 /*FOOTER*/
