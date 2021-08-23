@@ -807,9 +807,12 @@ body {
   flex-direction: column;
   width: 95%;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 1%;
   height: 600px;
+}
+.call-to-action {
+  margin: 3%;
 }
 .actionInfo {
   width: 100%;
