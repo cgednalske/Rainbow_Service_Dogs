@@ -17,6 +17,7 @@ p {
 
 
 /* Navigation Bar Menu */
+
 .navbar {
     padding-left: 5%;
     padding-right: 5%;
@@ -39,6 +40,7 @@ p {
     background-color: #4A8FB8;
     color: white;
     border: none;
+    border-radius: 18px;
 }
 .donateButton:hover {
   background-color: #E8AE5A;
@@ -60,6 +62,10 @@ p {
     background-color: #5C0D5C;
     color: white;
     border: none;
+    border-radius: 18px;
+}
+.modalButton {
+  border-radius: 18px;
 }
 .loginButton:hover {
     background-color: #E8AE5A;
@@ -73,7 +79,8 @@ p {
 /* Jumbotron Hero Section */
 .jumbotron {
     padding: 5%;
-    background-color: lightgray;
+    margin-top: 120px;
+    border-radius: 0;
 }
 .jumbotron h1 {
   font-family: "Neuton";
@@ -92,7 +99,7 @@ p {
 .homeJumbotron {
   background-image: url(../images/home\ hero\ crop.jpg);
   background-size: cover;
-  background-position: 31%;
+  background-position: 32%;
   height: 100%;
 }
 .lead {
@@ -777,6 +784,12 @@ body {
 .navButton {
     margin-bottom: 1%;
     }
+
+.jumbotron {
+      padding: 5%;
+      margin-top: 70px;
+      border-radius: 0;
+  }
 
 /* About Us Link card */
 
