@@ -107,7 +107,9 @@ p {
   background-image: url(../images/meetourdogs.jpg);
   background-size: cover;
   height: 100%;
+  position: 45%;
 }
+
 .pupHeading {
   margin-top: 20vh;
 }
@@ -187,7 +189,10 @@ p {
   margin-right: 6%;
   margin-top: 3%;
   margin-bottom: 2%;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
   border-radius: 20px;
 }
 .purpleCard h5 {
@@ -523,7 +528,7 @@ p {
   color: white;
   text-align: center;
   margin-top: 55%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   margin-left: 10%;
   margin-right: 10%;
   padding: 6%;
@@ -534,7 +539,7 @@ p {
   color: white;
   text-align: center;
   margin-top: 55%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   margin-left: 10%;
   margin-right: 10%;
   padding: 6%;
@@ -545,7 +550,7 @@ p {
   color: white;
   text-align: center;
   margin-top: 55%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   margin-left: 10%;
   margin-right: 10%;
   padding: 6%;
@@ -786,7 +791,7 @@ body {
   width: 95%;
   justify-content: center;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   height: 600px;
 }
 .actionInfo {
@@ -816,7 +821,61 @@ body {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 0px;
+
 }
+.homeOurStory {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.purpleCard {
+  margin-bottom: 6%;
+}
+.purpleCard h5 {
+  margin-bottom: 6%;
+}
+.homeSubheading {
+  margin-top: 12%;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+.testimonialInfo {
+  width: 100%;
+  padding: 2%;
+}
+.testimonial{
+  margin: 0 auto;
+  padding: 2%;
+}
+.pupCard {
+  margin-top: 3%;
+}
+.pupCard:active .overlay {
+  opacity: 1;
+}
+.pupCard:active .overlay2 {
+  opacity: 1;
+}
+.pupCard:active .overlay3 {
+  opacity: 1;
+}
+.pupCard:active .overlay4 {
+  opacity: 1;
+}
+.pupCard:active .overlay5 {
+  opacity: 1;
+}
+.modalContainer {
+  margin-top: 5% !important;
+  margin-bottom: 10% !important;
+}
+footer {
+  margin-top: -15% !important;
+}
+
+
 }
 
 @media only screen and (max-width: 480px) {
