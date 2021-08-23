@@ -40,6 +40,10 @@ p {
     color: white;
     border: none;
 }
+.donateButton:hover {
+  background-color: #E8AE5A;
+  color: #2e2e2e;
+}
 .navigationButtons {
     display: flex;
     flex-direction: column;
@@ -57,6 +61,10 @@ p {
     color: white;
     border: none;
 }
+.loginButton:hover {
+    background-color: #E8AE5A;
+    color: #2e2e2e;
+  } 
 .navbar-nav {
     width: 83%;
     display: flex;
@@ -76,6 +84,11 @@ p {
     background-color: #5C0D5C;
     border: none;
 }
+.btn-primary:hover {
+  background-color: #E8AE5A;
+  color: #2e2e2e;
+}
+
 .homeJumbotron {
   background-image: url(../images/home\ hero\ crop.jpg);
   background-size: cover;
@@ -399,7 +412,6 @@ p {
   height: 100%;
   object-fit:cover;
 }
-
 
 .pupsDonate {
   margin-bottom: 8%;
@@ -888,6 +900,13 @@ footer {
 .white {
   background-color: white;
   color:#5c0d5c;
+}
+
+.main {
+  margin-top: 10%;
+}
+.active {
+  text-decoration: underline;
 }
 
 /* about us card */
