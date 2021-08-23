@@ -17,6 +17,7 @@ p {
 
 
 /* Navigation Bar Menu */
+
 .navbar {
     padding-left: 5%;
     padding-right: 5%;
@@ -27,6 +28,10 @@ p {
     font-family: "Neuton", Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+a.nav-link:hover {
+  color: #4A8FB8 !important;
+}
+
 .navbar-brand {
     width: 11%;
     margin-right: 4%;
@@ -34,11 +39,17 @@ p {
 .navLogo {
     width: 100%;
 }
+
 .donateButton {
     margin-right: 1%;
     background-color: #4A8FB8;
     color: white;
     border: none;
+    border-radius: 18px;
+}
+.donateButton:hover {
+  background-color: #E8AE5A;
+  color: #2e2e2e;
 }
 .navigationButtons {
     display: flex;
@@ -56,20 +67,27 @@ p {
     background-color: #5C0D5C;
     color: white;
     border: none;
+    border-radius: 18px;
 }
+.modalButton {
+  border-radius: 18px;
+}
+.loginButton:hover {
+    background-color: #E8AE5A;
+    color: #2e2e2e;
+  } 
 .navbar-nav {
     width: 83%;
     display: flex;
     justify-content: space-around;
 }
-.main {
-  margin-top: 5%;
-  }
+
 
 /* Jumbotron Hero Section */
 .jumbotron {
     padding: 5%;
-    background-color: lightgray;
+    margin-top: 120px;
+    border-radius: 0;
 }
 .jumbotron h1 {
   font-family: "Neuton";
@@ -80,10 +98,15 @@ p {
     background-color: #5C0D5C;
     border: none;
 }
+.btn-primary:hover {
+  background-color: #E8AE5A;
+  color: #2e2e2e;
+}
+
 .homeJumbotron {
   background-image: url(../images/home\ hero\ crop.jpg);
   background-size: cover;
-  background-position: 31%;
+  background-position: 32%;
   height: 100%;
 }
 .lead {
@@ -98,7 +121,9 @@ p {
   background-image: url(../images/meetourdogs.jpg);
   background-size: cover;
   height: 100%;
+  position: 45%;
 }
+
 .pupHeading {
   margin-top: 20vh;
 }
@@ -137,7 +162,8 @@ p {
 .donateJumbotron {
   background-image: url(../images/Donations.jpg);
   background-size: cover;
-  height: 500px;
+  background-position: 31%;
+  height: 100%;
 }
 
 .donateHeading {
@@ -164,14 +190,23 @@ p {
   margin-left: 2%;
 }
 
+.homeOurStory {
+  text-align: center;
+  margin-top: 5%;
+}
+
 /* Purple Card */
 .purpleCard {
   background-color:#5C0D5C;
   color: white;
   margin-left: 6%;
   margin-right: 6%;
-  margin-top: 6%;
-  padding: 5%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
   border-radius: 20px;
 }
 .purpleCard h5 {
@@ -179,7 +214,9 @@ p {
   margin-top: 1%;
   font-weight: bold;
 }
-
+.meetIntroduction {
+  margin-top: 5%;
+}
 .introCard {
   background-color:#5C0D5C;
   color: white;
@@ -203,7 +240,7 @@ p {
   justify-content: center;
   margin: 0 auto;
   height: 350px;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .actionInfo {
   width: 35%;
@@ -241,10 +278,14 @@ p {
 }
 
 /* Testimonial Card */
+.homeSubheading {
+  text-align: center;
+  margin-top: 3%;
+}
 .testimonials {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 88%;
   justify-content: center;
   margin: 0 auto;
   border-radius: 20px;
@@ -273,10 +314,21 @@ p {
 .orange-box-shadow {
   box-shadow: 2px 5px 5px #F2765E;
 }
-
+.blue-box-shadow {
+  box-shadow: 2px 5px 5px #008bba;
+}
+.lightpurple-box-shadow {
+  box-shadow: 2px 5px 5px #A84AA8;
+}
+.purple-box-shadow {
+  box-shadow: 2px 5px 5px #5F4ABF;
+}
+.darkpurple-box-shadow {
+  box-shadow: 2px 5px 5px #5C0D5C;
+}
 /* Modal Carousel */
 .modalContainer {
-  margin-top: -4% !important;
+  margin-top: 1% !important;
 }
 
 .img-size {
@@ -309,11 +361,23 @@ p {
       margin-bottom: 8%;
     }
 
-  
+    .carousel-item img {
+      width: 100%;
+      object-fit: contain;
+    }
+    .carousel-item p {
+      margin: 3%;
+    }
+    .carousel-item h5 {
+      margin: 3%;
+    }
 
 /* Cards - Regular */
 .container-fluid {
-  padding: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 .card {
   box-shadow: 2px 5px 8px #5C0D5C;
@@ -350,7 +414,7 @@ p {
   object-fit:cover;
 }
 
-/*trial for overlay 2*/
+/* overlay fix*/
 .pupImageHolder img {
   border-radius: 20px;
   width: 100%;
@@ -362,13 +426,13 @@ p {
   height: 100%;
   object-fit:cover;
 }
-/*trial ends*/
 
 .pupsDonate {
   margin-bottom: 8%;
 }
-.trainingHeader {
-  margin-top: -1% !important;
+.galleryHeader {
+  margin-top: 2% !important;
+  margin-bottom: 3% !important;
 }
 
 .pupTitle {
@@ -391,7 +455,68 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #008bbad7;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f2775ecc;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e8ad5ae3;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a138a1de;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden
+}
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5f4abfd8;
   border-radius: 20px;
   margin: auto;
   overflow: hidden
@@ -399,6 +524,49 @@ p {
 
 .pupCard:hover .overlay {
   opacity: 1;
+}
+.pupCard:hover .overlay2 {
+  opacity: 1;
+}
+.pupCard:hover .overlay3 {
+  opacity: 1;
+}
+.pupCard:hover .overlay4 {
+  opacity: 1;
+}
+.pupCard:hover .overlay5 {
+  opacity: 1;
+}
+/* Home Feature Cards */
+.card-overlay-text1 {
+  color: white;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  background-color: #008bbac5; 
+}
+.card-overlay-text2 {
+  color: white;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  background-color: #f2775ecc; 
+}
+.card-overlay-text3 {
+  color: white;
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 6%;
+  background-color: #e8ad5ae3; 
 }
 
 /*FOOTER*/
@@ -624,6 +792,12 @@ body {
     margin-bottom: 1%;
     }
 
+.jumbotron {
+      padding: 5%;
+      margin-top: 70px;
+      border-radius: 0;
+  }
+
 /* About Us Link card */
 
 
@@ -634,7 +808,7 @@ body {
   width: 95%;
   justify-content: center;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   height: 600px;
 }
 .actionInfo {
@@ -664,7 +838,61 @@ body {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 0px;
+
 }
+.homeOurStory {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.purpleCard {
+  margin-bottom: 6%;
+}
+.purpleCard h5 {
+  margin-bottom: 6%;
+}
+.homeSubheading {
+  margin-top: 12%;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+.testimonialInfo {
+  width: 100%;
+  padding: 2%;
+}
+.testimonial{
+  margin: 0 auto;
+  padding: 2%;
+}
+.pupCard {
+  margin-top: 3%;
+}
+.pupCard:active .overlay {
+  opacity: 1;
+}
+.pupCard:active .overlay2 {
+  opacity: 1;
+}
+.pupCard:active .overlay3 {
+  opacity: 1;
+}
+.pupCard:active .overlay4 {
+  opacity: 1;
+}
+.pupCard:active .overlay5 {
+  opacity: 1;
+}
+.modalContainer {
+  margin-top: 5% !important;
+  margin-bottom: 10% !important;
+}
+footer {
+  margin-top: -15% !important;
+}
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -692,6 +920,13 @@ body {
 .white {
   background-color: white;
   color:#5c0d5c;
+}
+
+.main {
+  margin-top: 10%;
+}
+.active {
+  text-decoration: underline;
 }
 
 /* about us card */
