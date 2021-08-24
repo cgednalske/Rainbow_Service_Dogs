@@ -292,7 +292,7 @@ a.nav-link:hover {
 .testimonials {
   display: flex;
   flex-direction: row;
-  width: 88%;
+  width: 100%;
   justify-content: center;
   margin: 0 auto;
   border-radius: 20px;
