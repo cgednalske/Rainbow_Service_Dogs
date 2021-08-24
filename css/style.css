@@ -403,6 +403,10 @@ a.nav-link:hover {
 }
 
 /* Pup Gallery Cards */
+.view-on-click {
+  visibility: hidden;
+}
+
 .galleryRow {
   margin-bottom: 2.5%;
   margin-top: 2%;
@@ -912,7 +916,9 @@ footer {
 .hide-row-mobile {
   display: none;
 }
-
+.view-on-click {
+  visibility: visible;
+}
 
 }
 
