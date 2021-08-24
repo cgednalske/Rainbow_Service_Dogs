@@ -899,6 +899,12 @@ body {
 footer {
   margin-top: -15% !important;
 }
+.modal-content {
+  width: 100%;
+}
+.hide-row-mobile {
+  display: none;
+}
 
 
 }
