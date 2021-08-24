@@ -176,13 +176,17 @@ a.nav-link:hover {
 .donateHeading {
   margin-top: 20vh;
 }
-
+.donor-sub-heading {
+  margin-top: 10%;
+}
+.our-donors-card {
+  margin-top: 2% !important;
+}
 .donorHeading{
   margin-top: 70vh;
   background-color:#f0f0f0d2;
   padding: 20px;
 }
-
 .donorJumbotron {
   background-image: url(../images/xan-griffin-UCFgM_AojFg-unsplash.jpg);
   background-size: cover;
